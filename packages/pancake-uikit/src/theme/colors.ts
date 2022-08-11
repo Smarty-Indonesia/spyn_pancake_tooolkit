@@ -2,17 +2,17 @@ import { Colors } from "./types";
 
 export const baseColors = {
   failure: "#EA0617", // #ED4B9E
-  primary: "#50B426", // #084B83    #1FC7D4
+  primary: "#9A4DAB", // #084B83    #1FC7D4
   primaryBright: "#205d8f",  // #53DEE9
   primaryDark: "#074375",  // #0098A1
-  secondary: "#66E630",  // #42BFDD   #7645D9
-  success: "#008000", // #31D0AA
+  secondary: "#5A3E8D",  // #42BFDD   #7645D9
+  success: "#62E1E5", // #31D0AA
   warning: "#e0ae0e", // FFB237
 };
 
 export const additionalColors = {
   binance: "#F0B90B",
-  overlay: "#05345B", // "#452a7a", when a modal popups
+  overlay: "#452a7a", // "#452a7a", when a modal popups
   gold: "#FFC700",
   silver: "#B2B2B2",
   bronze: "#E7974D",
@@ -30,10 +30,10 @@ export const lightColors: Colors = {
   dropdown: "#F6F6F6",
   dropdownDeep: "#EEEEEE",
   invertedContrast: "#FFFFFF",
-  input: "#eeeaf4",
-  inputSecondary: "#d7caec",
-  tertiary: "#EFF4F5",
-  text: "#280D5F",
+  input: "#f9f2fa",
+  inputSecondary: "#7C4286",
+  tertiary: "#f8ebfa",
+  text: "#121212",
   textDisabled: "#BDC2C4",
   textSubtle: "#3e3c3c",   // change into gray before #7A6EAA
   disabled: "#E9EAEB",
@@ -48,59 +48,27 @@ export const lightColors: Colors = {
   },
 };
 
-// export const lightColors: Colors = {
-//   ...baseColors,
-//   ...additionalColors,
-//   secondary: "#084B83",   // Purple, as Font Color H1 or title and button
-//   background: "#08060B",  // as background of content or page
-//   backgroundDisabled: "#3c3742",
-//   backgroundAlt: "#39373B",    // as top Menu Bar
-//   backgroundAlt2: "rgba(39, 38, 44, 0.7)",
-//   cardBorder: "#383241",
-//   contrast: "#FFFFFF",
-//   dropdown: "#1E1D20",
-//   dropdownDeep: "#100C18",
-//   invertedContrast: "#191326",
-//   input: "#372F47",
-//   inputSecondary: "#262130",
-//   primaryDark: "#0098A1",
-//   tertiary: "#353547",
-//   text: "#F9F6FF",     // font color on page or content, before: #F4EEFF
-//   textDisabled: "#666171",
-//   textSubtle: "#B8ADD2",   // font color on Menu Bar top
-//   disabled: "#524B63",
-//   gradients: {
-//     bubblegum: "08060B", // "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",         warna untuk page header
-//     inverseBubblegum: "08060B", // "linear-gradient(139.73deg, #3D2A54 0%, #313D5C 100%)",  warna untuk page header
-//     cardHeader: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
-//     blue: "linear-gradient(180deg, #00707F 0%, #19778C 100%)",
-//     violet: "linear-gradient(180deg, #6C4999 0%, #6D4DB2 100%)",
-//     violetAlt: "linear-gradient(180deg, #434575 0%, #66578D 100%)",
-//     gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
-//   },
-// };
-
 
 export const darkColors: Colors = {
   ...baseColors,
   ...additionalColors,
-  secondary: "#50B426",   // #084B83 Purple, as Font Color H1 or title and button
+  secondary: "#D067DD",   // #084B83 Purple, as Font Color H1 or title and button
   background: "#08060B",  // as background of content or page
   backgroundDisabled: "#3c3742",
-  backgroundAlt: "#39373B",    // as top Menu Bar
+  backgroundAlt: "#7C4286",    // as top Menu Bar
   backgroundAlt2: "rgba(39, 38, 44, 0.7)",
-  cardBorder: "#383241",
+  cardBorder: "#28152b",
   contrast: "#FFFFFF",
   dropdown: "#1E1D20",
   dropdownDeep: "#100C18",
   invertedContrast: "#191326",
-  input: "#372F47",
-  inputSecondary: "#262130",
+  input: "#110912",
+  inputSecondary: "#28152b",
   primaryDark: "#0098A1",
-  tertiary: "#353547",
+  tertiary: "#5A3E8D",
   text: "#F9F6FF",     // font color on page or content, before: #F4EEFF
   textDisabled: "#666171",
-  textSubtle: "#B8ADD2",   // font color on Menu Bar top
+  textSubtle: "#F9F6FF",   // font color on Menu Bar top
   disabled: "#524B63",
   gradients: {
     bubblegum: "08060B", // "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",         warna untuk page header

@@ -2577,21 +2577,21 @@ var PancakeToggle = function (_a) {
 
 var baseColors = {
     failure: "#EA0617",
-    primary: "#50B426",
+    primary: "#9A4DAB",
     primaryBright: "#205d8f",
     primaryDark: "#074375",
-    secondary: "#66E630",
-    success: "#008000",
+    secondary: "#5A3E8D",
+    success: "#62E1E5",
     warning: "#e0ae0e", // FFB237
 };
 var additionalColors = {
     binance: "#F0B90B",
-    overlay: "#05345B",
+    overlay: "#452a7a",
     gold: "#FFC700",
     silver: "#B2B2B2",
     bronze: "#E7974D",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", backgroundAlt: "#FFFFFF", backgroundAlt2: "rgba(255, 255, 255, 0.7)", cardBorder: "#E7E3EB", contrast: "#191326", dropdown: "#F6F6F6", dropdownDeep: "#EEEEEE", invertedContrast: "#FFFFFF", input: "#eeeaf4", inputSecondary: "#d7caec", tertiary: "#EFF4F5", text: "#280D5F", textDisabled: "#BDC2C4", textSubtle: "#3e3c3c", disabled: "#E9EAEB", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", backgroundAlt: "#FFFFFF", backgroundAlt2: "rgba(255, 255, 255, 0.7)", cardBorder: "#E7E3EB", contrast: "#191326", dropdown: "#F6F6F6", dropdownDeep: "#EEEEEE", invertedContrast: "#FFFFFF", input: "#f9f2fa", inputSecondary: "#7C4286", tertiary: "#f8ebfa", text: "#121212", textDisabled: "#BDC2C4", textSubtle: "#3e3c3c", disabled: "#E9EAEB", gradients: {
         bubblegum: "faf9fa",
         inverseBubblegum: "faf9fa",
         cardHeader: "linear-gradient(111.68deg, #F2ECF2 0%, #E8F2F6 100%)",
@@ -2600,38 +2600,7 @@ var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors),
         violetAlt: "linear-gradient(180deg, #CBD7EF 0%, #9A9FD0 100%)",
         gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
     } });
-// export const lightColors: Colors = {
-//   ...baseColors,
-//   ...additionalColors,
-//   secondary: "#084B83",   // Purple, as Font Color H1 or title and button
-//   background: "#08060B",  // as background of content or page
-//   backgroundDisabled: "#3c3742",
-//   backgroundAlt: "#39373B",    // as top Menu Bar
-//   backgroundAlt2: "rgba(39, 38, 44, 0.7)",
-//   cardBorder: "#383241",
-//   contrast: "#FFFFFF",
-//   dropdown: "#1E1D20",
-//   dropdownDeep: "#100C18",
-//   invertedContrast: "#191326",
-//   input: "#372F47",
-//   inputSecondary: "#262130",
-//   primaryDark: "#0098A1",
-//   tertiary: "#353547",
-//   text: "#F9F6FF",     // font color on page or content, before: #F4EEFF
-//   textDisabled: "#666171",
-//   textSubtle: "#B8ADD2",   // font color on Menu Bar top
-//   disabled: "#524B63",
-//   gradients: {
-//     bubblegum: "08060B", // "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",         warna untuk page header
-//     inverseBubblegum: "08060B", // "linear-gradient(139.73deg, #3D2A54 0%, #313D5C 100%)",  warna untuk page header
-//     cardHeader: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
-//     blue: "linear-gradient(180deg, #00707F 0%, #19778C 100%)",
-//     violet: "linear-gradient(180deg, #6C4999 0%, #6D4DB2 100%)",
-//     violetAlt: "linear-gradient(180deg, #434575 0%, #66578D 100%)",
-//     gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
-//   },
-// };
-var darkColors = __assign(__assign(__assign({}, baseColors), additionalColors), { secondary: "#50B426", background: "#08060B", backgroundDisabled: "#3c3742", backgroundAlt: "#39373B", backgroundAlt2: "rgba(39, 38, 44, 0.7)", cardBorder: "#383241", contrast: "#FFFFFF", dropdown: "#1E1D20", dropdownDeep: "#100C18", invertedContrast: "#191326", input: "#372F47", inputSecondary: "#262130", primaryDark: "#0098A1", tertiary: "#353547", text: "#F9F6FF", textDisabled: "#666171", textSubtle: "#B8ADD2", disabled: "#524B63", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), additionalColors), { secondary: "#D067DD", background: "#08060B", backgroundDisabled: "#3c3742", backgroundAlt: "#7C4286", backgroundAlt2: "rgba(39, 38, 44, 0.7)", cardBorder: "#28152b", contrast: "#FFFFFF", dropdown: "#1E1D20", dropdownDeep: "#100C18", invertedContrast: "#191326", input: "#110912", inputSecondary: "#28152b", primaryDark: "#0098A1", tertiary: "#5A3E8D", text: "#F9F6FF", textDisabled: "#666171", textSubtle: "#F9F6FF", disabled: "#524B63", gradients: {
         bubblegum: "08060B",
         inverseBubblegum: "08060B",
         cardHeader: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
