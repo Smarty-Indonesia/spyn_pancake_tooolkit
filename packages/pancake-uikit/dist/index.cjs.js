@@ -5246,7 +5246,7 @@ var UserMenu = function (_a) {
         React__default['default'].createElement(StyledUserMenu, __assign({ ref: setTargetRef }, props),
             React__default['default'].createElement(MenuIcon, { avatarSrc: avatarSrc, variant: variant }),
             React__default['default'].createElement(LabelText, { title: text || account }, text || accountEllipsis),
-            React__default['default'].createElement(Text, null, "TOKIE"),
+            React__default['default'].createElement(Text, null, "SPYN"),
             React__default['default'].createElement(Icon$1N, { color: "text", width: "24px" })),
         React__default['default'].createElement(Menu, __assign({ style: styles.popper, ref: setTooltipRef }, attributes.popper, { isOpen: isOpen }), children)));
 };
