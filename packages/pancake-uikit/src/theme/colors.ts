@@ -53,9 +53,9 @@ export const darkColors: Colors = {
   ...baseColors,
   ...additionalColors,
   secondary: "#D067DD",   // #084B83 Purple, as Font Color H1 or title and button
-  background: "#08060B",  // as background of content or page
-  backgroundDisabled: "#3c3742",
-  backgroundAlt: "#7C4286",    // as top Menu Bar
+  background: "#09050a",  // as background of content or page
+  backgroundDisabled: "#201421",
+  backgroundAlt: "#180c1a",    // as top Menu Bar
   backgroundAlt2: "rgba(39, 38, 44, 0.7)",
   cardBorder: "#28152b",
   contrast: "#FFFFFF",
@@ -71,7 +71,7 @@ export const darkColors: Colors = {
   textSubtle: "#F9F6FF",   // font color on Menu Bar top
   disabled: "#524B63",
   gradients: {
-    bubblegum: "08060B", // "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",         warna untuk page header
+    bubblegum: "linear-gradient(180deg, #121212 0%, #481B4D 50%, #6D80B0 100%)",
     inverseBubblegum: "08060B", // "linear-gradient(139.73deg, #3D2A54 0%, #313D5C 100%)",  warna untuk page header
     cardHeader: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
     blue: "linear-gradient(180deg, #00707F 0%, #19778C 100%)",
