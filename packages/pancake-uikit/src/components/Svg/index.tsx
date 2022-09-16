@@ -1,3 +1,5 @@
+export { default as YoutubeIcon } from "./Icons/Youtube";
+export { default as LinkedInIcon } from "./Icons/LinkedIn";
 export { default as AccountIcon } from "./Icons/Account";
 export { default as AccountFilledIcon } from "./Icons/AccountFilled";
 export { default as AddIcon } from "./Icons/Add";
@@ -47,6 +49,7 @@ export { default as GithubIcon } from "./Icons/Github";
 export { default as HelpIcon } from "./Icons/Help";
 export { default as HistoryIcon } from "./Icons/History";
 export { default as InfoIcon } from "./Icons/Info";
+export { default as InstagramIcon } from "./Icons/Instagram";
 export { default as LanguageIcon } from "./Icons/Language";
 export { default as LanguageCurrencyIcon } from "./Icons/LanguageCurrency";
 export { default as LaurelLeftIcon } from "./Icons/LaurelLeft";
@@ -142,6 +145,7 @@ export { default as TrophyIcon } from "./Icons/Trophy";
 export { default as TrophyFillIcon } from "./Icons/TrophyFill";
 export { default as ExpandIcon } from "./Icons/Expand";
 export { default as ShrinkIcon } from "./Icons/Shrink";
+
 
 export { default as Svg } from "./Svg";
 export type { SvgProps } from "./types";
