@@ -117,9 +117,9 @@ const Menu: React.FC<NavProps> = ({
               <CakePrice cakePriceUsd={cakePriceUsd} />
             </Box>
           )}
-          <Flex padding="0 10px 0 10px" order={[2, null, 1]} alignItems="center">
+          {/* <Flex padding="0 10px 0 10px" order={[2, null, 1]} alignItems="center">
             <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
-          </Flex>
+          </Flex> */}
           <Box mt="4px">
             <LangSelector
               currentLang={currentLang}
