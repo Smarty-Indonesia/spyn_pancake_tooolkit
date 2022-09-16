@@ -82,9 +82,14 @@ export const socials = [
     href: "https://www.linkedin.com/in/yantonwirawan/",
   },
   {
+    label: "Youtube",
+    icon: "Youtube",
+    href: "https://www.youtube.com/channel/UCup3mkpvlwwtVtdbPVOPCJA",
+  },
+  {
     label: "Twitter",
     icon: "Twitter",
-    href: "https://twitter.com/FarmTokie",
+    href: "https://twitter.com/OfficialSPYNet",
   },
   {
     label: "Telegram",
@@ -92,11 +97,11 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/TokieGlobal",
+        href: "https://t.me/SPYGlobal",
       },
       {
         label: "Indonesia",
-        href: "https://t.me/Tokie_Ind",
+        href: "https://t.me/SPYIndonesia",
       },
       //{
       //  label: "中文",
