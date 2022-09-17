@@ -2053,7 +2053,7 @@ var templateObject_1$T, templateObject_2$u, templateObject_3$b, templateObject_4
 var PriceLink = styled__default['default'].a(templateObject_1$S || (templateObject_1$S = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
 var CakePrice = function (_a) {
     var cakePriceUsd = _a.cakePriceUsd, _b = _a.color, color = _b === void 0 ? "textSubtle" : _b;
-    return cakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: "https://poocoin.app/tokens/0x17fd3caa66502c6f1cbd5600d8448f3af8f2aba1", target: "_blank" },
+    return cakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: "https://poocoin.app/tokens/0x3F76517F7aB600fd4879F0Ee735051Bb9691D5BB", target: "_blank" },
         React__default['default'].createElement(Icon$15, { width: "24px", mr: "8px" }),
         React__default['default'].createElement(Text, { color: color, bold: true }, "$" + cakePriceUsd.toFixed(3)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 }));
 };
