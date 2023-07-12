@@ -5028,8 +5028,8 @@ var Inner = styled__default['default'].div(templateObject_4 || (templateObject_4
 var Menu$1 = function (_a) {
     var _b;
     var userMenu = _a.userMenu, globalMenu = _a.globalMenu, isDark = _a.isDark, toggleTheme = _a.toggleTheme, currentLang = _a.currentLang, setLang = _a.setLang, cakePriceUsd = _a.cakePriceUsd, links = _a.links, subLinks = _a.subLinks, footerLinks = _a.footerLinks, activeItem = _a.activeItem, activeSubItem = _a.activeSubItem, langs = _a.langs, buyCakeLabel = _a.buyCakeLabel, children = _a.children;
-    var isMobile = useMatchBreakpoints().isMobile;
-    var _c = React.useState(true), showMenu = _c[0], setShowMenu = _c[1];
+    var _c = useMatchBreakpoints(), isMobile = _c.isMobile, isDesktop = _c.isDesktop;
+    var _d = React.useState(true), showMenu = _d[0], setShowMenu = _d[1];
     var refPrevOffset = React.useRef(window.pageYOffset);
     React.useEffect(function () {
         var handleScroll = function () {
@@ -5080,7 +5080,7 @@ var Menu$1 = function (_a) {
             React__default['default'].createElement(Inner, { isPushed: false, showMenu: showMenu },
                 children,
                 React__default['default'].createElement(MenuItem, { items: footerLinks, isDark: isDark, toggleTheme: toggleTheme, langs: langs, setLang: setLang, currentLang: currentLang, cakePriceUsd: cakePriceUsd, buyCakeLabel: buyCakeLabel, mb: [MOBILE_MENU_HEIGHT + "px", null, "0px"] }))),
-        isMobile && React__default['default'].createElement(BottomNav, { items: links, activeItem: activeItem, activeSubItem: activeSubItem })));
+        !isDesktop && React__default['default'].createElement(BottomNav, { items: links, activeItem: activeItem, activeSubItem: activeSubItem })));
 };
 var templateObject_1$7, templateObject_2$4, templateObject_3$1, templateObject_4;
 
