@@ -130,8 +130,8 @@ const DropdownMenu: React.FC<DropdownMenuProps> = ({
   }, [isOpen, setMenuOpenByIndex, index]);
 
   return (
-    <Box ref={isBottomNav ? null : setTargetRef} {...props}>
-      <Box ref={isBottomNav ? setTargetRef : null}>{children}</Box>
+    <Box ref={isBottomNav || isTouchDevice() ? null : setTargetRef} {...props}>
+      <Box ref={isBottomNav || isTouchDevice() ? setTargetRef : null}>{children}</Box>
       {hasItems && (
         <StyledDropdownMenu
           style={styles.popper}

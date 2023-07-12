@@ -4628,8 +4628,8 @@ var DropdownMenu = function (_a) {
             });
         }
     }, [isOpen, setMenuOpenByIndex, index]);
-    return (React__default['default'].createElement(Box, __assign({ ref: isBottomNav ? null : setTargetRef }, props),
-        React__default['default'].createElement(Box, { ref: isBottomNav ? setTargetRef : null }, children),
+    return (React__default['default'].createElement(Box, __assign({ ref: isBottomNav || isTouchDevice() ? null : setTargetRef }, props),
+        React__default['default'].createElement(Box, { ref: isBottomNav || isTouchDevice() ? setTargetRef : null }, children),
         hasItems && (React__default['default'].createElement(StyledDropdownMenu, __assign({ style: styles.popper, ref: setTooltipRef }, attributes.popper, { "$isBottomNav": isBottomNav, "$isOpen": isOpen && ((isBottomNav && showItemsOnMobile) || !isBottomNav) }), items.map(function (_a, itemItem) {
             var _b = _a.type, type = _b === void 0 ? exports.DropdownMenuItemType.INTERNAL_LINK : _b, label = _a.label, _c = _a.href, href = _c === void 0 ? "/" : _c, status = _a.status, itemProps = __rest(_a, ["type", "label", "href", "status"]);
             var MenuItemContent = (React__default['default'].createElement(React__default['default'].Fragment, null,
@@ -4822,7 +4822,7 @@ var Logo = function (_a) {
     var isDark = _a.isDark, href = _a.href;
     var isAbsoluteUrl = href.startsWith("http");
     var innerLogo = (React__default['default'].createElement(React__default['default'].Fragment, null,
-        React__default['default'].createElement(Icon$1o, { className: "mobile-icon" }),
+        React__default['default'].createElement(Icon$1o, { width: "32px", height: "32px", className: "mobile-icon" }),
         React__default['default'].createElement(LogoWithTextIcon, { className: "desktop-icon", isDark: isDark })));
     return (React__default['default'].createElement(Flex, null, isAbsoluteUrl ? (React__default['default'].createElement(StyledLink, { as: "a", href: href, "aria-label": "Smarty Pay Homepage" }, innerLogo)) : (React__default['default'].createElement(StyledLink, { to: href, "aria-label": "Smarty Pay Homepage" }, innerLogo))));
 };
@@ -5028,7 +5028,7 @@ var Inner = styled__default['default'].div(templateObject_4 || (templateObject_4
 var Menu$1 = function (_a) {
     var _b;
     var userMenu = _a.userMenu, globalMenu = _a.globalMenu, isDark = _a.isDark, toggleTheme = _a.toggleTheme, currentLang = _a.currentLang, setLang = _a.setLang, cakePriceUsd = _a.cakePriceUsd, links = _a.links, subLinks = _a.subLinks, footerLinks = _a.footerLinks, activeItem = _a.activeItem, activeSubItem = _a.activeSubItem, langs = _a.langs, buyCakeLabel = _a.buyCakeLabel, children = _a.children;
-    var _c = useMatchBreakpoints(), isMobile = _c.isMobile, isDesktop = _c.isDesktop;
+    var _c = useMatchBreakpoints(), isMobile = _c.isMobile; _c.isDesktop;
     var _d = React.useState(true), showMenu = _d[0], setShowMenu = _d[1];
     var refPrevOffset = React.useRef(window.pageYOffset);
     React.useEffect(function () {
@@ -5080,7 +5080,7 @@ var Menu$1 = function (_a) {
             React__default['default'].createElement(Inner, { isPushed: false, showMenu: showMenu },
                 children,
                 React__default['default'].createElement(MenuItem, { items: footerLinks, isDark: isDark, toggleTheme: toggleTheme, langs: langs, setLang: setLang, currentLang: currentLang, cakePriceUsd: cakePriceUsd, buyCakeLabel: buyCakeLabel, mb: [MOBILE_MENU_HEIGHT + "px", null, "0px"] }))),
-        !isDesktop && React__default['default'].createElement(BottomNav, { items: links, activeItem: activeItem, activeSubItem: activeSubItem })));
+        isMobile && React__default['default'].createElement(BottomNav, { items: links, activeItem: activeItem, activeSubItem: activeSubItem })));
 };
 var templateObject_1$7, templateObject_2$4, templateObject_3$1, templateObject_4;
 

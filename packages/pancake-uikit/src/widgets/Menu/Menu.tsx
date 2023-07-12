@@ -152,7 +152,7 @@ const Menu: React.FC<NavProps> = ({
           />
         </Inner>
       </BodyWrapper>
-      {!isDesktop && <BottomNav items={links} activeItem={activeItem} activeSubItem={activeSubItem} />}
+      {isMobile && <BottomNav items={links} activeItem={activeItem} activeSubItem={activeSubItem} />}
     </Wrapper>
   );
 };
